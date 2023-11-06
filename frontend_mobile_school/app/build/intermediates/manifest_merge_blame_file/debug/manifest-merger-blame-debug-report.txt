@@ -1,0 +1,179 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ma.ensa.volley"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:6:22-64
+12
+13    <permission
+13-->[androidx.core:core:1.9.0] C:\Users\pc\.gradle\caches\transforms-3\6572e896cf691f4b13ad10c561cb3105\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+14        android:name="ma.ensa.volley.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+14-->[androidx.core:core:1.9.0] C:\Users\pc\.gradle\caches\transforms-3\6572e896cf691f4b13ad10c561cb3105\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+15        android:protectionLevel="signature" />
+15-->[androidx.core:core:1.9.0] C:\Users\pc\.gradle\caches\transforms-3\6572e896cf691f4b13ad10c561cb3105\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+16
+17    <uses-permission android:name="ma.ensa.volley.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+17-->[androidx.core:core:1.9.0] C:\Users\pc\.gradle\caches\transforms-3\6572e896cf691f4b13ad10c561cb3105\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.9.0] C:\Users\pc\.gradle\caches\transforms-3\6572e896cf691f4b13ad10c561cb3105\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+18
+19    <application
+19-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:8:5-72:19
+20        android:allowBackup="true"
+20-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:9:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.9.0] C:\Users\pc\.gradle\caches\transforms-3\6572e896cf691f4b13ad10c561cb3105\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+22        android:dataExtractionRules="@xml/data_extraction_rules"
+22-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:10:9-65
+23        android:debuggable="true"
+24        android:fullBackupContent="@xml/backup_rules"
+24-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:11:9-54
+25        android:icon="@mipmap/ic_launcher"
+25-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:12:9-43
+26        android:label="@string/app_name"
+26-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:13:9-41
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:14:9-54
+28        android:supportsRtl="true"
+28-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:15:9-35
+29        android:testOnly="true"
+30        android:theme="@style/Theme.Volley"
+30-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:16:9-44
+31        android:usesCleartextTraffic="true" >
+31-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:17:9-44
+32        <activity
+32-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:19:9-21:40
+33            android:name="ma.ensa.volley.StudentByFiliere"
+33-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:20:13-45
+34            android:exported="false" />
+34-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:21:13-37
+35        <activity
+35-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:22:9-24:40
+36            android:name="ma.ensa.volley.ShowFilieres"
+36-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:23:13-41
+37            android:exported="false" />
+37-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:24:13-37
+38        <activity
+38-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:25:9-27:40
+39            android:name="ma.ensa.volley.ShowRole"
+39-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:26:13-37
+40            android:exported="false" />
+40-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:27:13-37
+41        <activity
+41-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:28:9-30:40
+42            android:name="ma.ensa.volley.Filieres"
+42-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:29:13-37
+43            android:exported="false" />
+43-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:30:13-37
+44        <activity
+44-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:31:9-33:40
+45            android:name="ma.ensa.volley.Students"
+45-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:32:13-37
+46            android:exported="false" />
+46-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:33:13-37
+47        <activity
+47-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:34:9-36:40
+48            android:name="ma.ensa.volley.ShowStudents"
+48-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:35:13-41
+49            android:exported="false" />
+49-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:36:13-37
+50        <activity
+50-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:37:9-39:40
+51            android:name="ma.ensa.volley.AffectationRole"
+51-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:38:13-44
+52            android:exported="false" />
+52-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:39:13-37
+53        <activity
+53-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:40:9-53:20
+54            android:name="ma.ensa.volley.MainActivity"
+54-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:41:13-41
+55            android:exported="true"
+55-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:43:13-36
+56            android:theme="@style/AppTheme" >
+56-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:42:13-44
+57            <intent-filter>
+57-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:44:13-48:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:45:17-69
+58-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:45:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:47:17-77
+60-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:47:27-74
+61            </intent-filter>
+62
+63            <meta-data
+63-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:50:13-52:36
+64                android:name="android.app.lib_name"
+64-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:51:17-52
+65                android:value="" />
+65-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:52:17-33
+66        </activity>
+67        <activity
+67-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:54:9-56:40
+68            android:name="ma.ensa.volley.Roles"
+68-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:55:13-34
+69            android:exported="false" />
+69-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:56:13-37
+70        <activity
+70-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:57:9-59:40
+71            android:name="ma.ensa.volley.AddRole"
+71-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:58:13-36
+72            android:exported="false" />
+72-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:59:13-37
+73        <activity
+73-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:60:9-62:40
+74            android:name="ma.ensa.volley.AddStudent"
+74-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:61:13-39
+75            android:exported="false" />
+75-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:62:13-37
+76        <activity
+76-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:63:9-71:20
+77            android:name="ma.ensa.volley.AddFiliere"
+77-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:64:13-39
+78            android:exported="true" >
+78-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:65:13-36
+79            <intent-filter>
+79-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:44:13-48:29
+80                <action android:name="android.intent.action.MAIN" />
+80-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:45:17-69
+80-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:45:25-66
+81
+82                <category android:name="android.intent.category.LAUNCHER" />
+82-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:47:17-77
+82-->C:\Users\pc\Documents\spring boot\Volley_Student_Filliere\app\src\main\AndroidManifest.xml:47:27-74
+83            </intent-filter>
+84        </activity>
+85
+86        <provider
+86-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pc\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+87            android:name="androidx.startup.InitializationProvider"
+87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pc\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+88            android:authorities="ma.ensa.volley.androidx-startup"
+88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pc\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+89            android:exported="false" >
+89-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pc\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+90            <meta-data
+90-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pc\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+91                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+91-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pc\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+92                android:value="androidx.startup" />
+92-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pc\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+93            <meta-data
+93-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\pc\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+94                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+94-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\pc\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+95                android:value="androidx.startup" />
+95-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\pc\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+96        </provider>
+97    </application>
+98
+99</manifest>
